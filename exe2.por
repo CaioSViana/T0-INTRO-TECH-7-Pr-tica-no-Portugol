@@ -14,7 +14,7 @@ programa
         escreva("\nImpares:")
         para (i = 0; i < 10; i++)
         {
-            se (vetor[i] % 2 != 0)
+            se (i % 2 != 0)
             {
                 escreva(vetor[i], " ")
             }
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 801; 
+ * @POSICAO-CURSOR = 324; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
