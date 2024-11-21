@@ -11,7 +11,7 @@ programa
             leia(vetor[i])
         }
         
-        escreva("\nImpares:")
+        escreva("\nElementos nos índices ímpares::")
         para (i = 0; i < 10; i++)
         {
             se (i % 2 != 0)
@@ -22,7 +22,7 @@ programa
         }
 
         
-        escreva("\nPares:")
+        escreva("\nElementos pares:")
         para (i = 0; i < 10; i++)
         {
             se (vetor[i] % 2 == 0)
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 324; 
+ * @POSICAO-CURSOR = 493; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
